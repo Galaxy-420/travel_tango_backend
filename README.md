@@ -65,3 +65,4 @@ Include token in API requests:
 ```
 Authorization: Bearer <your_jwt_token>
 ```
+Cheers
