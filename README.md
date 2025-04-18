@@ -55,8 +55,9 @@ npm start
 
 - `POST /api/auth/login` - Register new user
 - `POST /api/auth/register` - User login
-- `GET /api/blog/post/all` - Get blog post
-- `GET /api/blog/post/:slug` - Get blog by slug (Protected)
+- `GET /api/blog/trip/all` - Get trip detail
+- `GET /api/blog/expences/all` - Get trip detail
+- `GET /api/blog/trip/:slug` - Get trip by slug (Protected)
 
 ## JWT Usage
 
@@ -64,15 +65,3 @@ Include token in API requests:
 ```
 Authorization: Bearer <your_jwt_token>
 ```
-## Demo User Logins 
-
-Just create account using registration
-```
-https://envision-olive.vercel.app/login
-```
-
-Use Need an account? Sign Up Button
-Just Provide email and password and create account 
-after creating an account you will appear login form and use logging
-using your credentials 
-That't it 
