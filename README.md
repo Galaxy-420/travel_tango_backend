@@ -30,16 +30,16 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=<your_username>
 DB_PASSWORD=<your_password>
-DB_NAME=envision_blog
+DB_NAME=travel_tango
 
 # JWT
-JWT_SECRET=blog@envision
+JWT_SECRET=travel@tango
 NODE_ENV=dev
 ```
 
 4. **Database Setup**
 ```sql
-CREATE DATABASE envision_blog;
+CREATE DATABASE travel_tango;
 ```
 
 5. **Start the Server**
