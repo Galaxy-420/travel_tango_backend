@@ -12,8 +12,8 @@ A basic Node.js project setup with MySQL database and JWT authentication.
 
 1. **Clone the Project**
 ```bash
-git clone https://github.com/Udayanzoysa/envision-back.git 
-cd envision-back
+git clone [https://github.com/Udayanzoysa/envision-back.git ](https://github.com/Galaxy-420/travel_tango_backend.git)
+cd travel_tango_backend
 ```
 
 2. **Install Dependencies**
