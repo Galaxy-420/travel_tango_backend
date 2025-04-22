@@ -12,8 +12,8 @@ A basic Node.js project setup with MySQL database and JWT authentication.
 
 1. **Clone the Project**
 ```bash
-git clone https://github.com/Udayanzoysa/envision-back.git 
-cd envision-back
+git clone [https://github.com/Udayanzoysa/envision-back.git ](https://github.com/Galaxy-420/travel_tango_backend.git)
+cd travel_tango_backend
 ```
 
 2. **Install Dependencies**
@@ -30,16 +30,16 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=<your_username>
 DB_PASSWORD=<your_password>
-DB_NAME=envision_blog
+DB_NAME=travel_tango
 
 # JWT
-JWT_SECRET=blog@envision
+JWT_SECRET=travel@tango
 NODE_ENV=dev
 ```
 
 4. **Database Setup**
 ```sql
-CREATE DATABASE envision_blog;
+CREATE DATABASE travel_tango;
 ```
 
 5. **Start the Server**
@@ -55,8 +55,9 @@ npm start
 
 - `POST /api/auth/login` - Register new user
 - `POST /api/auth/register` - User login
-- `GET /api/blog/post/all` - Get blog post
-- `GET /api/blog/post/:slug` - Get blog by slug (Protected)
+- `GET /api/blog/trip/all` - Get trip detail
+- `GET /api/blog/expences/all` - Get trip detail
+- `GET /api/blog/trip/:slug` - Get trip by slug (Protected)
 
 ## JWT Usage
 
@@ -64,15 +65,4 @@ Include token in API requests:
 ```
 Authorization: Bearer <your_jwt_token>
 ```
-## Demo User Logins 
-
-Just create account using registration
-```
-https://envision-olive.vercel.app/login
-```
-
-Use Need an account? Sign Up Button
-Just Provide email and password and create account 
-after creating an account you will appear login form and use logging
-using your credentials 
-That't it 
+Cheers
