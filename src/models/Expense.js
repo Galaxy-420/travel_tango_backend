@@ -1,9 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/db.config");
 const User = require("./User");
-const Tags = require("./Tags");
 
-// Define the Expense model
 const Expense = sequelize.define("Expense", {
   title: { type: DataTypes.STRING, allowNull: false },
   description: { type: DataTypes.TEXT, allowNull: true },
@@ -18,11 +16,7 @@ const Expense = sequelize.define("Expense", {
   },
 });
 
-// Define associations
 Expense.belongsTo(User);
 User.hasMany(Expense);
-
-Expense.belongsToMany(Tags, { through: "ExpenseTags" });
-Tags.belongsToMany(Expense, { through: "ExpenseTags" });
 
 module.exports = Expense;
